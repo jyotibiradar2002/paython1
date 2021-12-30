@@ -1,0 +1,21 @@
+# Fibonacci number(No.of)
+n=int(input("Enter the number of term :"))
+#first two numbers
+n1,n2=0,1
+count=0
+#check the number is valid or not
+if n<0:
+    print("Enter Positive number.")
+elif n ==0:
+    print(n1)
+elif n==1:
+    print(n2)
+else:
+    print("Fibonacci sequence : ")
+    while count < n:
+        print(n1)
+        nth=n1+n2
+        #update values
+        n1=n2
+        n2=nth
+        count += 1
