@@ -1,0 +1,4 @@
+#WAP accepts the filename from user and print extension
+filename=input("Enter the Filename : ")
+fn=filename.split(".")
+print("Extension of file is : ",fn[-1])
