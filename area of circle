@@ -1,0 +1,6 @@
+#Write a program which accepts the radius of circle from user and compute the area
+from math import pi
+r=float(input("Enter the radius of circle : "))
+area=pi*r*r;
+print(" The Area of the Circle with radius",r,"is : ",area)
+
